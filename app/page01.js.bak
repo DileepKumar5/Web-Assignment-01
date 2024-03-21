@@ -1,0 +1,22 @@
+import React from 'react'
+
+const page = () => {
+  return (
+    <div className='border flex flex-col h-screen'>
+      <div className='flex flex-row justify-between'>
+        <div className='border border-black text-black-500 text-lg m-4 p-4'>Logo 1</div>
+        <div className='border border-black text-black-500 text-lg m-4 p-4'>Logo 2</div>
+      </div>
+      <div className='border border-black text-center m-2 p-2'>Navigation</div>
+      <div className='border border-black text-center m-2 p-2'>Header/Banner</div>
+      <div className=' flex flex-grow'>
+        <div className='border border-black flex w-1/5 m-2 p-2' >SideBar</div>
+        <div className='border border-black flex w-4/5 m-2 p-2' >MainContent</div>
+      </div>
+      <div className='border border-black text-center m-2 p-2'>Footer</div>
+
+    </div>
+  )
+}
+
+export default page
